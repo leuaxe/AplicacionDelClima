@@ -40,3 +40,8 @@ body{
     transition: .3s;
     outline: none;
 }
+
+#contenedorBusqueda button:hover{
+    background-color: #331E38;
+    color: #fff;
+}
