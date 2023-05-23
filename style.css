@@ -31,3 +31,12 @@ body{
     outline: none;
     font-weight: bold;
 }
+
+#contenedorBusqueda button{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    outline: none;
+}
