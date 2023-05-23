@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicaion del Clima</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+<body>
+    <div class="contenedorBusqueda">
+        <input type="text" id="entradaBusqueda" placeholder="Ingresa el nombre de una ciudad">
+        <button id="buscar"><i class="fas fa-search"></i></button>
+    </div>
+
+    <div class="contenedorClima">
+        <div>
+            <h2 id="encabezadoCiudad"></h2>
+            <div class="swipe">
+                <div id="temperatura"></div>
+                <div><img id="iconoClima"></div>
+            </div>
+
+            <div id="descripcionClime"></div>
+            <div id="velocidadViento"></div>
+            <div id="humedad"></div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
