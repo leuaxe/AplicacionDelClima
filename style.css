@@ -65,7 +65,7 @@ body{
     margin-bottom: 10px;
 }
 
-.contenedorClima{
+#contenedorClima{
     background-color: rgba(31, 166, 255, 0.356);
     box-shadow: 1px 1px 5px #000;
     padding: 50px;
