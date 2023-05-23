@@ -45,3 +45,13 @@ body{
     background-color: #331E38;
     color: #fff;
 }
+
+#temperatura{
+    font-size: 2em;
+}
+
+.swipe{
+    display: flex;
+    width: 80px;
+    margin: auto;
+}
