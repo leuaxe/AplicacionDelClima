@@ -21,3 +21,13 @@ body{
     top: 0px;
     right: 0px;
 }
+
+#contenedorBusqueda input{
+    padding: 10px;
+    border: none;
+    text-transform: uppercase;
+    width: 300px;
+    border-radius: 5px;
+    outline: none;
+    font-weight: bold;
+}
